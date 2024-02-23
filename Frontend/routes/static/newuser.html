@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Create User Form</title>
+  </head>
+  <body>
+    <h1>Create User</h1>
+    <p>Enter the details below:</p>
+	<form action="/create-user" method="post">
+  	<!-- user input-->
+  	User-name:<br>
+  	<input type="text" name="username" placeholder="username" required><br><br>
+    First name:<br>
+    <input type="text" name="first_name" placeholder="first_name" required><br><br>
+    Last name:<br>
+    <input type="text" name="last_name" placeholder="last_name" required><br><br>
+  	Password:<br>
+  	<input type="password" name="password" placeholder="password" required><br><br>
+    <p>Please re-enter the password</p>
+    RePassword:<br>
+  	<input type="password" name="repassword" placeholder="repassword" required><br><br>
+  	<!-- submit button -->
+  	<input type="submit"  value="Create">
+	</form>
+  </body>
+
+  <body>
+    <a href="/login"><br>login page</a>
+  </body>
+</html>

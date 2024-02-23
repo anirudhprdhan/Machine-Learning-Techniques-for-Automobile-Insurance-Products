@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Update user</title>
+  </head>
+  <body>
+	<h1>Update Password Page</h1>
+	<form action="/update-pass" method="patch">
+  	<!-- user input-->
+  	Username:<br>
+  	<input type="text" name="username" placeholder="username" required><br><br>
+  	Password:<br>
+  	<input type="password" name="password" placeholder="password" required><br><br>
+    <p>Please re-enter the password</p>
+    RePassword:<br>
+    <input type="password" name="repassword" placeholder="repassword" required><br><br>
+    New Password:<br>
+    <input type="password" name="npassword" placeholder="npassword" required><br><br>
+    Re-enter New Password:<br>
+    <input type="password" name="nrepassword" placeholder="nrepassword" required><br><br>
+    <!-- submit button -->
+
+  	<input type="submit"  value="login">
+    <input type="reset">
+	</form>
+  </body>
+  
+  <body>
+    <a href="/login"><br>login page</a>
+  </body>
+</html>
